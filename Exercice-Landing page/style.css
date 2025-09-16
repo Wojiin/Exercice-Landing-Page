@@ -16,47 +16,18 @@
   gap: 20px;
   padding: 20px;
 }
-/*Smartphones */
-@media only screen and (max-device-width: 767px) {
-  .container {
-    flex-direction: column;
-  }
-}
+
 /*============Titres et en-têtes de section============*/
 h1 {
   font-size: 3em;
   margin-bottom: 30px;
 }
-/*Smartphones */
-@media only screen and (max-device-width: 767px) {
-  h1 {
-    font-size: 2em;
-  }
-}
-/*Tablette*/
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  #home {
-    height: 70vh;
-  }
-  h1 {
-    font-size: 2em;
-  }
-  .frontpage .social {
-    display: block;
-  }
-}
+
 article.titre {
   text-align: center;
   width: 40%;
   margin: auto;
   padding-bottom: 50px;
-}
-/*Smartphones */
-@media only screen and (max-device-width: 767px) {
-  article.titre {
-    margin: 0;
-    width: 100%;
-  }
 }
 
 h2 {
@@ -112,37 +83,8 @@ h3 + p {
   display: flex;
   list-style: none;
   align-items: center;
-  padding-left: 150px;
-  gap: 10px;
-}
-/*Tablette*/
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .frontpage ul {
-    padding: 1px 1px 0 0;
-    gap: 0;
-  }
-}
-/*Tablette*/
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  header {
-    width: 100vw;
-  }
-}
-/*Smartphones */
-@media only screen and (max-device-width: 767px) {
-  header {
-    width: 100%;
 
-    text-align: center;
-  }
-  nav {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-  }
-  .social li {
-    display: none;
-  }
+  gap: 10px;
 }
 
 nav {
@@ -160,12 +102,6 @@ nav li > a:hover {
   background-color: rgb(139, 195, 245);
 }
 
-@media only screen and (max-device-width: 767px) {
-  nav li > a {
-    font-size: 0.7em;
-    border: 1px solid rgb(139, 195, 245);
-  }
-}
 .logo {
   margin-left: 200px;
   font-size: 1.8em;
@@ -183,58 +119,11 @@ nav li > a:hover {
 .topnav .icon {
   display: none;
 }
-@media only screen and (max-device-width: 767px) {
-  .logo {
-    margin: 0;
-    padding-left: 20px;
-  }
-  .topnav li {
-    display: none;
-  }
-  .frontpage ul {
-    padding-left: 10px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .topnav .icon {
-    display: block;
-    margin: auto;
-  }
-  .topnav.responsive .burger {
-    display: block;
-  }
-  .topnav.responsive .icon {
-    display: none;
-  }
-  .topnav.responsive li {
-    display: block;
-    text-align: left;
-  }
-}
-/*Tablette*/
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .logo {
-    font-size: 1.1em;
-    padding-bottom: 20px;
-  }
 
-  .social {
-    font-size: 0.9em;
-  }
-  #features {
-    padding: 0;
-  }
-  #features .container {
-    padding: 0;
-    gap: 10px;
-  }
-  .featurescard {
-    padding: 0;
-  }
-}
 .social {
   padding-right: 50px;
 }
+
 header,
 a {
   display: flex;
@@ -251,22 +140,6 @@ a {
   padding: 5% 10%;
   gap: 30px;
 }
-/*Tablette*/
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  header {
-    display: flex;
-    flex-direction: column;
-  }
-  header a {
-    justify-content: start;
-  }
-  #home {
-    display: block;
-  }
-  .logo {
-    margin-right: 0;
-  }
-}
 
 /*=====Partie gauche de la section principale de l'accueil=====*/
 .homegauche {
@@ -274,22 +147,7 @@ a {
   width: 500px;
   height: 700px;
 }
-/*Smartphones */
-@media only screen and (max-device-width: 767px) {
-  .homegauche {
-    height: 30%;
-    width: 100%;
-  }
-}
-/*Tablette*/
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .homegauche {
-    display: flex;
-    flex-direction: column;
-    height: 400px;
-    width: 100%;
-  }
-}
+
 .homegauche p {
   font-size: 1.2em;
 }
@@ -330,12 +188,6 @@ a {
 #home figure {
   width: 600px;
 }
-/*Smartphones */
-@media only screen and (max-device-width: 767px) {
-  #home figure {
-    display: none;
-  }
-}
 
 /*============Marges pour délimiter les sections============*/
 section {
@@ -354,12 +206,7 @@ section {
   padding: 20px;
   transition: 0.5s;
 }
-/*Smartphones */
-@media only screen and (max-device-width: 767px) {
-  .featurescard {
-    width: 100%;
-  }
-}
+
 .featurescard:hover {
   transform: translateY(-20px);
 }
@@ -398,11 +245,7 @@ section {
   align-items: center;
   margin: 0 30px;
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .teamcard {
-    margin: 0;
-  }
-}
+
 .headerteamcard {
   text-align: center;
 }
@@ -483,21 +326,7 @@ section {
   padding: 80px 20px;
   text-align: center;
 }
-/*Smartphones */
-@media only screen and (max-device-width: 767px) {
-  #cta {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url("img/parallaxtel.png");
-  }
-}
-/*TABLETTE*/
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  #cta {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url("img/parallaxtab.png");
-    background-position-y: center;
-  }
-}
+
 #cta h2 {
   padding: 30px 0;
   width: fit-content;
@@ -533,63 +362,10 @@ section {
   justify-content: space-between;
   font-size: 1em;
 }
-/*Smartphones */
-@media only screen and (max-device-width: 767px) {
-  .blogcard {
-    height: 60vh;
-    width: 100%;
-    padding: 0;
-  }
-  #blog {
-    padding: 0;
-  }
-  #blog .container {
-    padding: 0;
-    width: 100%;
-    padding: 20px;
-  }
-  .headerblog {
-    width: 100%;
-    object-fit: cover;
-  }
-}
-/*TABLETTE*/
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  #blog .container {
-    display: flex;
-    flex-direction: column;
-  }
-  .blogcard {
-    width: 100%;
-    padding: 0;
-  }
-
-  #blog article {
-    padding-left: 20px;
-  }
-  #blog article p {
-    font-size: 1em;
-  }
-  #blog h3 {
-    font-size: 1.6em;
-    width: 100%;
-    padding-bottom: 30px;
-  }
-  #blog a {
-    position: absolute;
-
-    bottom: 0;
-  }
-  .headerblog {
-    display: flex;
-    min-width: fit-content;
-  }
-}
 
 .headerblog {
   position: relative;
 
-  width: 400px;
   height: 275px;
 }
 .author {
@@ -626,48 +402,18 @@ section {
 #pricing {
   margin-top: 100px;
 }
-/*TABLETTE*/
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  #pricing {
-    padding: 0;
-  }
-  .pricingfront {
-    padding: 20px;
-  }
-  #pricing article {
-    text-align: center;
-    margin: auto;
-  }
-  .containerpricingtable {
-    max-width: 100vw;
-    gap: 3px;
-  }
-}
-@media only screen and (max-device-width: 767px) {
-  #pricing {
-    padding: 0;
-  }
-}
+
 /*============En-tête Pricing============*/
 .pricingfront {
   display: flex;
   justify-content: center;
   gap: 5%;
 }
-@media only screen and (max-device-width: 767px) {
-  .pricingfront {
-    padding: 20px;
-  }
-}
+
 .pricingfront img {
   height: 350px;
 }
-/*Smartphones */
-@media only screen and (max-device-width: 767px) {
-  .pricingfront img {
-    display: none;
-  }
-}
+
 /*======Partie gauche de l'en-tête Pricing=======*/
 .frontleft {
   display: block;
@@ -711,20 +457,7 @@ section {
   margin: auto;
   gap: 10px;
 }
-/*Smartphones */
-@media only screen and (max-device-width: 767px) {
-  .containerpricingtable {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 30px;
-  }
-}
-@media only screen and (max-device-width: 767px) {
-  .containerpricingtable > article.titre p {
-    margin-bottom: 0;
-  }
-}
+
 .containerpricingtable > article.titre p {
   padding-bottom: 0;
 }
@@ -732,13 +465,6 @@ section {
   display: flex;
   gap: 6%;
   justify-content: center;
-}
-/*Smartphones */
-@media only screen and (max-device-width: 767px) {
-  .containerpricingcard {
-    flex-direction: column;
-    width: 100%;
-  }
 }
 
 .pricingcard,
@@ -752,15 +478,6 @@ section {
   width: 280px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
-}
-/*Smartphones */
-@media only screen and (max-device-width: 767px) {
-  .pricingcard,
-  .pricingcardprom {
-    width: 100%;
-    padding: 20px;
-    margin-bottom: 40px;
-  }
 }
 
 p.price {
@@ -818,14 +535,7 @@ span {
 .pricingcardprom {
   transform: translateY(-20px);
 }
-/*Smartphones */
-@media only screen and (max-device-width: 767px) {
-  .pricingcardprom {
-    transform: scale(1.1);
-    border: 2px solid gold;
-    z-index: 3;
-  }
-}
+
 .prom {
   position: absolute;
   padding: 12px;
@@ -874,6 +584,17 @@ ul.footersocials > li > a > i {
   gap: 20px;
   list-style: none;
 }
+
+.legal > li a {
+  color: rgb(88, 85, 85);
+  font-size: 1em;
+}
+/*Smartphones */
+@media only screen and (max-device-width: 767px) {
+  .container {
+    flex-direction: column;
+  }
+}
 /*Smartphones */
 @media only screen and (max-device-width: 767px) {
   .legal {
@@ -881,7 +602,305 @@ ul.footersocials > li > a > i {
     gap: 5px;
   }
 }
-.legal > li a {
-  color: rgb(88, 85, 85);
-  font-size: 1em;
+/*Smartphones */
+@media only screen and (max-device-width: 767px) {
+  .pricingcardprom {
+    transform: scale(1.1);
+    border: 2px solid gold;
+    z-index: 3;
+  }
+}
+/*Smartphones */
+@media only screen and (max-device-width: 767px) {
+  .pricingcard,
+  .pricingcardprom {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+}
+/*Smartphones */
+@media only screen and (max-device-width: 767px) {
+  .containerpricingcard {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+/*Smartphones */
+@media only screen and (max-device-width: 767px) {
+  .containerpricingtable {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+  }
+}
+@media only screen and (max-device-width: 767px) {
+  .containerpricingtable > article.titre p {
+    margin-bottom: 0;
+  }
+}
+/*Smartphones */
+@media only screen and (max-device-width: 767px) {
+  .pricingfront img {
+    display: none;
+  }
+}
+@media only screen and (max-device-width: 767px) {
+  .pricingfront {
+    padding: 20px;
+  }
+}
+/*TABLETTE*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #pricing {
+    padding: 0;
+  }
+  .pricingfront {
+    padding: 20px;
+  }
+  #pricing article {
+    text-align: center;
+    margin: auto;
+  }
+  .containerpricingtable {
+    max-width: 100vw;
+    gap: 3px;
+  }
+}
+@media only screen and (max-device-width: 767px) {
+  #pricing {
+    padding: 0;
+  }
+}
+/*TABLETTE*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #blog .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .blogcard {
+    width: 100%;
+    padding: 0;
+  }
+
+  #blog article {
+    padding-left: 20px;
+  }
+  #blog article p {
+    font-size: 1em;
+  }
+  #blog h3 {
+    font-size: 1.6em;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  #blog a {
+    position: absolute;
+
+    bottom: 0;
+  }
+  .headerblog {
+    display: flex;
+    min-width: fit-content;
+  }
+}
+/*Smartphones */
+@media only screen and (max-device-width: 767px) {
+  .blogcard {
+    height: 60vh;
+    width: 100%;
+    padding: 0;
+  }
+  #blog {
+    padding: 0;
+  }
+  #blog .container {
+    padding: 0;
+    width: 100%;
+    padding: 20px;
+  }
+  .headerblog {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+/*Smartphones */
+@media only screen and (max-device-width: 767px) {
+  #cta {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("img/parallaxtel.png");
+  }
+}
+/*TABLETTE*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #cta {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("img/parallaxtab.png");
+    background-position-y: center;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .teamcard {
+    margin: 0;
+  }
+}
+/*Smartphones */
+@media only screen and (max-device-width: 767px) {
+  .featurescard {
+    width: 100%;
+  }
+}
+/*Smartphones */
+@media only screen and (max-device-width: 767px) {
+  #home figure {
+    display: none;
+  }
+}
+/*Smartphones */
+@media only screen and (max-device-width: 767px) {
+  .homegauche {
+    height: 30%;
+    width: 100%;
+    margin: auto;
+  }
+}
+/*Tablette*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .homegauche {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+  }
+}
+/*Tablette*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  header a {
+    justify-content: start;
+  }
+  #home {
+    display: block;
+  }
+  .logo {
+    margin-right: 0;
+  }
+}
+/*Tablette*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .logo {
+    font-size: 1.1em;
+    padding-bottom: 20px;
+  }
+
+  .social {
+    font-size: 0.9em;
+  }
+  #features {
+    padding: 0;
+  }
+  #features .container {
+    padding: 0;
+    gap: 10px;
+  }
+  .featurescard {
+    padding: 0;
+  }
+}
+@media only screen and (max-device-width: 767px) {
+  .logo {
+    margin: 0;
+  }
+  .topnav li {
+    display: none;
+  }
+  .frontpage ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .topnav .icon {
+    display: block;
+    margin: auto;
+  }
+  .topnav.responsive .burger {
+    display: block;
+  }
+  .topnav.responsive .icon {
+    display: none;
+  }
+  .topnav.responsive li {
+    display: block;
+    text-align: left;
+  }
+}
+/*Tablette*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .frontpage ul {
+    padding: 1px 1px 0 0;
+    gap: 0;
+  }
+}
+/*Tablette*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  header {
+    width: 100vw;
+  }
+}
+
+/*Smartphones */
+@media only screen and (max-device-width: 767px) {
+  h1 {
+    font-size: 2em;
+  }
+}
+/*Tablette*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #home {
+    height: 70vh;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  .frontpage .social {
+    display: block;
+  }
+}
+@media only screen and (max-device-width: 767px) {
+  .frontpage {
+    height: 200vh;
+  }
+}
+/*Smartphones */
+@media only screen and (max-device-width: 767px) {
+  article.titre {
+    margin: 0;
+    width: 100%;
+  }
+}
+/*Smartphones */
+@media only screen and (max-device-width: 767px) {
+  header {
+    width: 100%;
+    height: 100vh;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .social ul {
+    display: none;
+  }
+  .social li {
+    display: none;
+  }
+  .social {
+    display: none;
+    padding: 0;
+  }
 }
